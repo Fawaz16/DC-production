@@ -1,0 +1,93 @@
+
+.f-text h1{
+    padding: 50px;
+    font-weight: 500;
+    color: aliceblue;
+    padding-top: 100px;
+    font-size: 48px;
+    
+    }
+    .f-text{
+        background: url(https://embed.widencdn.net/img/kiewit/zt7dmfwreo/1024px@2x/Long-Ridge_Pipe-Rack-Module-3-Set.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        width: 100%;
+        height:400px;
+        opacity: 1;
+        
+    }
+    
+    
+    .g-text{
+        background-color: lightgray;
+        
+    
+    }
+    .g-text p{
+        width: 80%;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        line-height: 40px;
+    }
+    
+    .h-text{
+        padding-top: 60px;
+        padding-right: 10px;
+    }
+    .h-text h1{
+    padding-left: 50px;
+    color: grey;
+    padding-bottom: 20px;
+    }
+    .h-text p{
+        width: 80%;
+        padding-left: 50px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+
+    
+    @media(max-width:768px){
+        .f-text{
+            height: 300px;
+        }
+        .f-text h1{
+            padding-top: 80px;
+            font-size: 48px;
+        }
+    
+        .g-text p{
+            width: 100%;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            line-height: 30px;
+        }
+    
+        .h-text{
+            padding-top: 40px;
+        }
+        .h-text h1{
+        padding-left: 20px;
+        color: grey;
+        padding-bottom: 20px;
+        }
+        .h-text p{
+            width: 100%;
+            padding-left: 20px;
+            
+        }
+        
+    }
+    @media(min-width:768px){
+
+    }
+    @media(min-width:1024px){
+
+    }

@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-seri
+
+}
+
+
+/* nav section */
+nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow: 4px 4px 12px rgb(49, 49, 49);
+}
+.active{
+    border-bottom: 2px solid white;
+}
+
+.a-text h1{
+    color: aliceblue;
+   width: 75%;
+   padding-left: 40px;
+   padding-top: 90px;
+}
+.a-text p{
+    padding-left: 40px;
+    width: 80%;
+    color: aliceblue;
+}
+
+.a-text{
+    background: url(https://embed.widencdn.net/img/kiewit/ksmieam33m/1024px@2x/Paradise-Combined-Cycle_Kentucky_APPROVED_03.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.a-text button{
+    width: 180px;
+    height: 50px;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(253, 165, 0);
+}
+
+
+.b-text{
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top:20px ;
+
+}
+
+.b-text p{
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.b-text button{
+    width: 130px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:rgb(253, 165, 0) ;
+}
+
+.b-text button:hover{
+    box-shadow: 2px 2px 10px rgb(49, 49, 49);
+    transition: 0.3s ease-in-out;
+}
+.b-text{
+    object-fit: cover;
+}
+.b-text img{
+    width: 100%;
+}
+#carousel-text{
+    background-color: rgb(253, 165, 0) ;
+}
+
+/*  */
+.e-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .e1-text h5 {
+    padding-top: 20px;
+  }
+  .e1-text {
+    box-shadow: 4px 4px 12px rgb(83, 83, 83);
+    padding: 20px;
+  }
+  /*  */
+
+  .c-text h1{
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: gray;
+      font-weight: 600;
+
+  }
+
+  /* footer */
+
+
+footer {
+    background-color: #f4f4f4;
+    min-height: 100px;
+    margin-top: 50px;
+  }
+  
+  footer .foot {
+    padding: 20px 0;
+  }
+  
+  footer .foot h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  footer .foot p {
+    margin: 0;
+  }
+  
+  footer .foot .new_mail {
+    background-color: #ffffff;
+    max-width: 350px;
+    position: relative;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+  }
+  
+  footer .foot .new_mail input {
+    height: 47px;
+    background: transparent;
+    border: 0;
+    border-radius: 50px;
+    width: 254px;
+    outline: 0;
+    padding: 15px;
+  }
+  
+  footer .foot .new_mail button {
+    width: 70px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    top: 7px;
+    right: 10px;
+    position: absolute;
+    background-color: rgb(253, 165, 0);
+    border-radius: 50px;
+  }
+  
+  footer .foot p {
+    max-width: 450px;
+  }
+  
+  footer .foot .copyr p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  footer .foot .copyr ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  footer .foot .copyr ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
+  
+  /* ENDING OF MY CODE */
+  
+
+@media(max-width:768px){
+    .a-text h1{
+    font-size: 21px;
+        width: 95%;
+        font-weight: 600;
+        padding-left: 20px;
+        padding-top: 50px;
+     }
+     .a-text p{
+         padding-left: 20px;
+         width: 80%;
+     }
+     .a-text button{
+         margin-left: 20px;
+     }
+
+
+     .b-text{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    
+    }
+    
+    .b-text p{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    
+    .b-text button{
+        width: 130px;
+        height: 40px;
+        border: none;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color:rgb(253, 165, 0) ;
+    }
+
+
+    .e1-text img {
+        width: 100%;
+      }
+      .e1-text {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .e1-text h5 {
+        padding-left: 10px;
+        padding-top: 10px;
+      }
+    
+      .e1-text p {
+        padding-left: 10px;
+      }
+
+}
+
+@media(min-width:768px){
+    .a-text h1{
+    
+        width: 65%;
+        padding-left: 40px;
+        padding-top: 90px;
+     }
+     .a-text p{
+         padding-left: 40px;
+         width: 80%;
+     }
+     .a-text{
+         height: 500px;
+     }
+     .a-text button{
+         margin-left: 40px;
+         margin-top: 20px;
+     }
+
+
+     .b-text{
+        padding-left: 40px;
+        padding-bottom: 20px;
+        display: flex;
+        padding-top: 80px;
+        
+     
+    
+    }
+    
+    .b-text p{
+      
+        padding-bottom: 20px;
+        width: 80%;
+    }
+    
+    .b-text button{
+        width: 130px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color:rgb(253, 165, 0) ;
+    }
+    .b-text img{
+        width: 300px;
+        padding-top: 10px;
+        padding-right: 20px;
+        border-radius: 20px;
+        object-fit: cover;
+        
+      
+    }
+    .e-text {
+        margin-left: 40px;
+      }
+      .e1-text {
+        max-width: 300px;
+        margin-left: 30px;
+        margin-top: 30px;
+      }
+      .e1-text img {
+        width: 100%;
+      }
+}
+
+@media(min-width:1024px){
+    .a-text h1{
+    
+        width: 75%;
+        padding-left: 40px;
+        padding-top: 90px;
+     }
+     .a-text p{
+         padding-left: 40px;
+         width: 80%;
+     }
+     .a-text{
+        height: 400px;
+    }
+    .b-text{
+        padding-left: 40px;
+        padding-bottom: 20px;
+    display: flex;
+    }
+    
+    .b-text p{
+      
+        padding-bottom: 20px;
+        width: 80%;
+    }
+    .b-text img{
+width: 400px;
+    }
+    .b-text button{
+        width: 130px;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color:rgb(253, 165, 0) ;
+    }
+    .e1-text{
+        max-width: 350px;
+    }
+}

@@ -1,0 +1,164 @@
+
+
+.f-text h1{
+padding: 50px;
+font-weight: 500;
+color: aliceblue;
+padding-top: 100px;
+font-size: 48px;
+
+}
+.f-text{
+    background: url(https://embed.widencdn.net/img/kiewit/rqhjixvbyj/1024px@2x/GOPR0481-2b.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+    height:400px;
+    opacity: 1;
+    
+}
+
+
+.g-text{
+    background-color: lightgray;
+    
+
+}
+.g-text p{
+    width: 80%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.h-text{
+    padding-top: 60px;
+    padding-right: 10px;
+}
+.h-text h1{
+padding-left: 50px;
+color: grey;
+padding-bottom: 20px;
+}
+.h-text p{
+    width: 80%;
+    padding-left: 50px;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.i-text{
+    background: url(https://embed.widencdn.net/img/kiewit/ffotumtgdq/1200px/KWP_TDF_062018_0455.jpg?quality=70);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    
+}
+.j-text{
+    background-color: #ffd200;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 70px;
+    padding-bottom: 20px;
+    position: relative;
+    top: -170px;
+    box-shadow: 3px 3px 15px rgb(82, 82, 82);
+}
+.j-text h1{
+    font-size: 38px;
+    font-weight: 800;
+    color: rgb(97, 97, 97);
+}
+.j-text p{
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.k1-text{
+    max-width: 300px;
+    background-color: rgb(182, 182, 182);
+    padding: 20px 20px 20px 10px;
+    margin-left: 40px;
+}
+.k1-text h4{
+    padding-bottom: 20px;
+    
+}
+
+@media(max-width:768px){
+    .f-text{
+        height: 300px;
+    }
+    .f-text h1{
+        padding-top: 80px;
+        font-size: 48px;
+    }
+
+    .g-text p{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .h-text{
+        padding-top: 40px;
+    }
+    .h-text h1{
+    padding-left: 20px;
+    color: grey;
+    padding-bottom: 20px;
+    }
+    .h-text p{
+        width: 100%;
+        padding-left: 20px;
+        
+    }
+    .i-text{
+        height:300px;
+        background-size: cover;
+    }
+
+    .j-text{
+        background-color: #ffd200;
+        max-width: 90%;
+        margin: 0 auto;
+        position: relative;
+        top: -50px;
+        padding: 30px 20px;
+    }
+    .j-text h1{
+        font-size: 28px;
+        font-weight: 800;
+        color: rgb(97, 97, 97);
+    }
+    .j-text p{
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .k1-text{
+        margin-left: 20px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+}
+@media(min-width:768px){
+.k-text{
+    display: flex;
+    margin-right: 20px;
+}
+}
+@media(min-width:1024px){
+    
+}

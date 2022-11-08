@@ -35,7 +35,7 @@ nav{
 }
 
 .a-text{
-    background: url(https://embed.widencdn.net/img/kiewit/ksmieam33m/1024px@2x/Paradise-Combined-Cycle_Kentucky_APPROVED_03.webp);
+    background: url(https://st.depositphotos.com/1907633/2378/i/600/depositphotos_23781507-stock-photo-businessman-hand-working-with-new.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,8 +97,13 @@ nav{
     padding-top: 20px;
   }
   .e1-text {
-    box-shadow: 4px 4px 12px rgb(83, 83, 83);
+    box-shadow: 4px 4px 14px rgb(83, 83, 83);
     padding: 20px;
+    cursor: pointer;
+  }
+  .e1-text:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
   }
   /*  */
 
@@ -200,8 +205,12 @@ footer {
   
 
 @media(max-width:768px){
+  .a-text{
+    width: 100%;
+    background-size: cover;
+  }
     .a-text h1{
-    font-size: 21px;
+    font-size: 25px;
         width: 95%;
         font-weight: 600;
         padding-left: 20px;
@@ -209,7 +218,7 @@ footer {
      }
      .a-text p{
          padding-left: 20px;
-         width: 80%;
+         width: 90%;
      }
      .a-text button{
          margin-left: 20px;
